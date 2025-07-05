@@ -35,6 +35,16 @@
             bindings = <&mo 5>;
             key-positions = <16 17 18>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <12 13>;
+        };
+
+        left-control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
